@@ -1,0 +1,10 @@
+name: MobLeaderboard
+version: 0.1
+main: uk.co.jacekk.bukkit.mobleaderboard.MobLeaderboard
+commands:
+    topten:
+        usage: /<command> [total]
+        description: Displays the top ten players
+    leaderboard:
+        usage: /<command> <player_name>
+        description: Gets the position of the given player
